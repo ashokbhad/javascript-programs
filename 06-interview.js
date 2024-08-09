@@ -1,4 +1,7 @@
-console.log(`%c*** Interview Eligibility Check with if-else statement ***`, "color: purple");
+console.log(
+  `%c*** Interview Eligibility Check with if-else statement ***`,
+  "color: purple"
+);
 
 function interviewCheck(gradScore, hscScore, sscScore, candidateName) {
   const result =
