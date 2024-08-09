@@ -1,13 +1,19 @@
 const voteEligibility = function (age) {
-  if (age <= 0 || age > 130) {
-    console.log(`%c Invalid data`, "color: purple");
-  } else if (age < 18) {
-    console.log(
-      `%c Unfortunately, You Not Eligible For The Voting`,
-      "color: red"
-    );
+  if (age == 0 || age < 0 || age > 130 || age == null) {
+    console.log(`%cInvalid data. Age is: ${age}`, "color: purple");
   } else {
-    console.log(`%c Congrats, You Are Eligible For Voting`, "color: green");
+    console.log(`Valid Data: ${age}`);
+    if (age >= 18) {
+      console.log(
+        `%cCongrats, You are Eligible For The Voting`,
+        "color: green"
+      );
+    } else {
+      console.log(
+        `%cUnfortunately, You Are Not Eligible For Voting`,
+        "color: red"
+      );
+    }
   }
 };
 
