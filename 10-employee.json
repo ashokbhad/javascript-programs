@@ -1,0 +1,13 @@
+{
+  "id": 11,
+  "fullName": "Ashok Bhad",
+  "isMarried": true,
+  "city": null,
+  "mobiles": ["8600 2456 78", "9527 6667 70", "7878 9090 88"],
+  "address": {
+    "flatNumber": "G2",
+    "society": "Horizon",
+    "street": "Pune",
+    "state": "MH"
+  }
+}
